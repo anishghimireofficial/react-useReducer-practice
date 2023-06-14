@@ -1,0 +1,10 @@
+import "./styles.css";
+import MyRoutes from "./MyRoutes";
+
+export default function App() {
+  return (
+    <>
+      <MyRoutes />
+    </>
+  );
+}

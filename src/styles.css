@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: yellowgreen;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.space {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 12px;
+  text-transform: uppercase;
+  background-color: coral;
+  border-radius: 12px;
+  border: 1px solid;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: rgb(0, 0, 0);
+}
+a {
+  text-decoration: none;
+  color: wheat;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+input {
+  padding: 20px;
+  margin: 5px;
+  border-radius: 12px;
+  border: 0;
+  outline: none;
+}
+
+.form > button {
+  margin: 5px;
+  padding: 12px;
+}
